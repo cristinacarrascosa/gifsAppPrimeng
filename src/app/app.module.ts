@@ -11,6 +11,7 @@ import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 
 import { SharedModule } from './shared/shared.module';
+import { GifsModule } from './gifs/gifs.module';
 
 
 
@@ -26,7 +27,8 @@ import { SharedModule } from './shared/shared.module';
     SidebarModule,
     ButtonModule,
     CardModule,
-    SharedModule
+    SharedModule,
+    GifsModule
 
   ],
   providers: [],
