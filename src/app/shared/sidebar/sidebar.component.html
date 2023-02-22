@@ -5,9 +5,13 @@
 
     <hr>
 
+    <!-- recorre el array de búsqueda y lo muestra-->
     <div class="p-list-group">
-      <a href="#" class="p-button p-listbox-item-group">
-        Dashboard
+      <a *ngFor="let item of historial"
+      href="#"
+      class="p-button p-listbox-item-group"
+      >
+        {{item}}
       </a>
 
     </div>
