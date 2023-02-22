@@ -10,6 +10,8 @@ import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 
+import { SharedModule } from './shared/shared.module';
+
 
 
 
@@ -23,7 +25,8 @@ import {CardModule} from 'primeng/card';
     AppRoutingModule,
     SidebarModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    SharedModule
 
   ],
   providers: [],
